@@ -17,6 +17,7 @@
 | docker push image-info | Push the image from docker hub repository |
 | docker pull image-info | Pull the image from docker hub repository |
 | docker pull stacksimplify/springboot-helloworld-rest-api:2.0.0-RELEASE | Pull the image from docker hub repository |
+| docker run -d -e DBHOST="empdb" -e DBPORT="3306" -e DBUSER="root" -e DBPWD="abcd1234" -e DATABASE="awsecs" --name addemp --net awsecs -p 80:80 addemp:latest | Run a container with very options |
 | docker exec -it container-name /bin/sh | Connect to linux container and execute commands in container |
 | docker logout | Logout from docker hub |
 | docker login -u username -p password | Login to docker hub |
