@@ -11,10 +11,10 @@
 | docker port container-id | List port mappings of a specific container |
 | docker rm container-id or name | Remove the stopped container |
 | docker rm -f container-id or name| Remove the running container forcefully |
+| docker rmi image-id | Remove the docker image |
 | docker pull image-info | Pull the image from docker hub repository |
 | docker pull stacksimplify/springboot-helloworld-rest-api:2.0.0-RELEASE | Pull the image from docker hub repository |
 | docker exec -it container-name /bin/sh | Connect to linux container and execute commands in container |
-| docker rmi image-id | Remove the docker image |
 | docker logout | Logout from docker hub |
 | docker login -u username -p password | Login to docker hub |
 | docker stats | Display a live stream of container(s) resource usage statistics |
