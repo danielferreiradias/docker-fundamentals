@@ -22,3 +22,4 @@
 | docker top container-id or name | Display the running processes of a container |
 | docker version | Show the Docker version information |
 | docker update --restart unless-stopped $(docker ps -q) | And this command will ensure all currently running containers will be restarted unless stopped |
+| docker tag <your-docker-hub-id>/mynginx_image1:v1 <your-docker-hub-id>/mynginx_image1:v1-release | Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE |
