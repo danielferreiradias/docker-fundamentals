@@ -13,7 +13,7 @@
 | docker rm -f container-id or name| Remove the running container forcefully |
 | docker rmi image-id | Remove the docker image |
 | docker images | Show docker images |
-| docker tag nielbit/mynginx_image1:v1   nielbit/mynginx_image1:v1-release | Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE |
+| docker tag nielbit/mynginx_image1:v1  nielbit/mynginx_image1:v1-release | Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE |
 | docker push image-info | Push the image from docker hub repository |
 | docker pull image-info | Pull the image from docker hub repository |
 | docker pull stacksimplify/springboot-helloworld-rest-api:2.0.0-RELEASE | Pull the image from docker hub repository |
