@@ -34,7 +34,9 @@
 | docker cp [ID/NAME]:/tmp/lesson01 . | Copy a archive from container to my current directory (. or $PWD) |
 | docker cp lesson01 [ID/NAME]:/tmp/lesson01 | Copy a archive from PC to container |
 | docker export [ID/NAME] \|gzip > export_container.tar.gz | Export a container with compression for persistence fins |
-| zcat export_container.tar.gz \| docker import - export_new_container | Export a container as a image, after export use "docker container run -itd export_new_container bash"
+| zcat export_container.tar.gz \| docker import - export_new_container | Export a container as a image, after export use "docker container run -id export_new_container bash" |
+| docker save export_new_container \|gzip -c > IMAGE.tar.gz | Export a container with compression for persistence fins |
+| docker load < IMAGE.tar.gz | Import a container and after that, run it with "docker run -di export_new_container bash"
 | docker login -u [USERNAME] -p [PASSWORD] | Login to docker hub |
 | docker logout | Logout from docker hub |
 | docker stats | Display a live stream of container(s) resource usage statistics |
