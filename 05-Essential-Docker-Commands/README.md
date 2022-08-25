@@ -11,17 +11,17 @@
 | docker port [ID/NAME] | List port mappings of a specific container |
 | docker rm [ID/NAME] or name | Remove the stopped container |
 | docker rm -f [ID/NAME] or name| Remove the running container forcefully |
-| docker rmi image-id | Remove the docker image |
+| docker rmi [IMAGE_ID] | Remove the docker image |
 | docker images | Show docker images |
 | docker build -t myrepo/myimage Dockerfile | Build a image |
 | docker tag nielbit/mynginx_image1:v1  nielbit/mynginx_image1:v1-release | Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE |
-| docker push image-info | Push the image from docker hub repository |
-| docker pull image-info | Pull the image from docker hub repository |
+| docker push [IMAGE_INFO] | Push the image from docker hub repository |
+| docker pull [IMAGE_INFO] | Pull the image from docker hub repository |
 | docker pull stacksimplify/springboot-helloworld-rest-api:2.0.0-RELEASE | Pull the image from docker hub repository |
 | docker run -d -e DBHOST="empdb" -e DBPORT="3306" -e DBUSER="root" -e DBPWD="abcd1234" -e DATABASE="awsecs" --name addemp --net awsecs -p 80:80 addemp:latest | Run a container with very options |
 | docker run --rm -it ubuntu:18.04 | Initialize a container with a interactive mode and finalize when exit it |
 | docker run --name ubuntu -itd ubuntu:18.04 | Initialize a container with a name 'ubuntu' with a background mode |
-| docker exec -it container-name /bin/sh | Connect to linux container and execute commands in container |
+| docker exec -it [ID/NAME] /bin/sh | Connect to linux container and execute commands in container |
 | docker logout | Logout from docker hub |
 | docker login -u username -p password | Login to docker hub |
 | docker stats | Display a live stream of container(s) resource usage statistics |
