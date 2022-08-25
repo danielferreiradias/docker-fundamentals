@@ -34,7 +34,7 @@
 | docker login -u [USERNAME] -p [PASSWORD] | Login to docker hub |
 | docker logout | Logout from docker hub |
 | docker stats | Display a live stream of container(s) resource usage statistics |
-| docker top [ID/NAME] or name | Display the running processes of a container |
+| docker top [ID/NAME] | Display the running processes of a container |
 | docker version | Show the Docker version information |
 | docker update --restart unless-stopped $(docker ps -q) | And this command will ensure all currently running containers will be restarted unless stopped |
 
