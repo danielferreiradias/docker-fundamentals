@@ -12,7 +12,7 @@
 | docker start [ID/NAME] | Start the container which is stopped |
 | docker restart [ID/NAME] | Restart the container which is running |
 | docker logs [ID/NAME] | Show container logs |
-| docker inspect [ID/NAME or IMAGE] | Inspect a container or image |
+| docker inspect [ID/NAME or IMAGE] | Inspect a container or image on JSON format |
 | docker container prune | Remove all stopped containers |
 | docker port [ID/NAME] | List port mappings of a specific container |
 | docker rm [ID/NAME] or name | Remove the stopped container |
