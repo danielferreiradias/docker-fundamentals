@@ -23,7 +23,7 @@
 | docker run --name ubuntu -itd ubuntu:18.04 | Initialize a container with a name 'ubuntu' with a background mode |
 | docker exec -it [ID/NAME] /bin/sh | Connect to linux container and execute commands in container |
 | docker logout | Logout from docker hub |
-| docker login -u username -p password | Login to docker hub |
+| docker login -u [USERNAME] -p [PASSWORD] | Login to docker hub |
 | docker stats | Display a live stream of container(s) resource usage statistics |
 | docker top [ID/NAME] or name | Display the running processes of a container |
 | docker version | Show the Docker version information |
