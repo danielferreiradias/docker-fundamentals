@@ -11,7 +11,7 @@
 | docker unpause [ID/NAME] | Unpause the container which is not running, but active |
 | docker start [ID/NAME] | Start the container which is stopped |
 | docker restart [ID/NAME] | Restart the container which is running |
-| docker logs [ID/NAME] | Show container logs |
+| docker logs -f [ID/NAME] | Show container logs continually |
 | docker inspect [ID/NAME or IMAGE] | Inspect a container or image on JSON format |
 | docker container prune | Remove all stopped containers |
 | docker port [ID/NAME] | List port mappings of a specific container |
