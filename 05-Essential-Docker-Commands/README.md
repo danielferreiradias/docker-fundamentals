@@ -6,6 +6,9 @@
 | docker ps | List all running containers |
 | docker ps -a | List all containers stopped, running |
 | docker stop [ID/NAME] | Stop the container which is running |
+| docker start [ID/NAME] | Sart the container which is stop |
+| docker pause [ID/NAME] | Pause the container which is running |
+| docker unpause [ID/NAME] | Unpause the container which is not running, but active |
 | docker start [ID/NAME] | Start the container which is stopped |
 | docker restart [ID/NAME] | Restart the container which is running |
 | docker port [ID/NAME] | List port mappings of a specific container |
