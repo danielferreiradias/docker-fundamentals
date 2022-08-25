@@ -45,6 +45,6 @@
 | docker version | Show the Docker version information |
 | docker update --restart unless-stopped $(docker ps -q) | And this command will ensure all currently running containers will be restarted unless stopped |
 | docker network ls | List all docker network|
-| docker port [ID/NAME] | List container port mapping |
+| docker port [ID/NAME] | List container port mapping or run "docker ps" |
 
 
