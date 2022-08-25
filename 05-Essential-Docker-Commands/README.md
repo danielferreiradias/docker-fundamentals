@@ -3,7 +3,7 @@
 
 |     Commands                 |    Description                                  |
 | ------------------------------- | --------------------------------------------- |
-| docker info | Info about Docker architecture |
+| docker info | Info about docker architecture |
 | docker ps | List all running containers |
 | docker ps -a | List all containers stopped, running |
 | docker stop [ID/NAME] | Stop the container which is running |
@@ -20,7 +20,7 @@
 | docker rm -f [ID/NAME] or name| Remove the running container forcefully |
 | docker rmi [IMAGE_ID] | Remove the docker image |
 | docker images | Show docker images |
-| docker search --filter "is-official=true" [IMAGE] | Search a specific official image in Docker Hub repository |
+| docker search --filter "is-official=true" [IMAGE] | Search a specific official image in docker Hub repository |
 | docker image prune -a | Remove all images without at least one container associated to them |
 | docker build -t myrepo/myimage Dockerfile | Build a image |
 | docker tag nielbit/mynginx_image1:v1  nielbit/mynginx_image1:v1-release | Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE |
@@ -44,5 +44,7 @@
 | docker top [ID/NAME] | Display the running processes of a container |
 | docker version | Show the Docker version information |
 | docker update --restart unless-stopped $(docker ps -q) | And this command will ensure all currently running containers will be restarted unless stopped |
+| docker network ls | List all docker network|
+| docker port [ID/NAME] | List container port map |
 
 
