@@ -30,6 +30,7 @@
 | docker run --rm -it ubuntu:18.04 | Initialize a container with a interactive mode and finalize when exit it |
 | docker run --name ubuntu -itd ubuntu:18.04 | Initialize a container with a name 'ubuntu' with a background mode |
 | docker exec -u root -it [ID/NAME] /bin/sh | Connect to linux container and execute commands with root in container |
+| docker exec -u root -d [ID/NAME] bash -c "echo 'any text' >> /tmp/lesson01" | Execute a container in background mode and append text in a archive |
 | docker login -u [USERNAME] -p [PASSWORD] | Login to docker hub |
 | docker logout | Logout from docker hub |
 | docker stats | Display a live stream of container(s) resource usage statistics |
