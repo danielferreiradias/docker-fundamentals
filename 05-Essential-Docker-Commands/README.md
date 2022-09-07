@@ -15,13 +15,13 @@
 | docker logs -f [ID/NAME] | Show container logs continually |
 | docker inspect [ID/NAME or IMAGE] | Inspect a container or image on JSON format |
 | docker container prune | Remove all stopped containers |
+| docker image prune -a | Remove all images without at least one container associated to them |
 | docker port [ID/NAME] | List port mappings of a specific container |
 | docker rm [ID/NAME] or name | Remove the stopped container |
 | docker rm -f [ID/NAME] or name| Remove the running container forcefully |
 | docker rmi [IMAGE_ID] | Remove the docker image |
 | docker images | Show docker images |
 | docker search --filter "is-official=true" [IMAGE] | Search a specific official image in docker Hub repository |
-| docker image prune -a | Remove all images without at least one container associated to them |
 | docker build -t myrepo/myimage Dockerfile | Build a image |
 | docker tag nielbit/mynginx_image1:v1  nielbit/mynginx_image1:v1-release | Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE |
 | docker push [IMAGE_INFO] | Push the image from docker hub repository |
