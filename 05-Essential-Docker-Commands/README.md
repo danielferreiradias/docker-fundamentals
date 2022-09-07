@@ -1,5 +1,6 @@
 # Docker - Essential Commands
-- The below are the list of essential commands we are in need 
+- Below are the list of essential commands we need
+
 
 |     Commands                 |    Description                                  |
 | ------------------------------- | --------------------------------------------- |
