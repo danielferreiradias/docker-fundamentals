@@ -49,5 +49,5 @@
 | docker network ls | List all docker network|
 | docker port [ID/NAME] | List container port mapping or run "docker ps" |
 | docker-compose up -d | Tells Docker to process the contents of the composite file and configure the specified volumes, networks, and containers |
-| docker-compose run [ID/NAME] env | to see what environment variables are available to the web service |
+| docker-compose run [ID/NAME] env | To see what environment variables are available to the web service |
 
