@@ -50,7 +50,8 @@
 | docker port [ID/NAME] | List container port mapping or run "docker ps" |
 | docker-compose up -d | Tells Docker to process the contents of the composite file and configure the specified volumes, networks, and containers |
 | docker-compose stop | Tells Docker to stop the contents of the composite file and configure the specified volumes, networks, and containers |
-| docker-compose run [ID/NAME] env | To see what environment variables are available to the web service |
+| docker-compose exec [ID/NAME] env | To see what environment variables are available to the web service |
 | docker-compose down --volumes | You can bring everything down, removing the containers entirely, with the down command. Pass --volumes to also remove the data volume, if used |
+| docker-compose down --volumes --rmi all | You can bring everything down, removing the containers entirely, volumes and images |
 | docker-compose logs -f | Show container logs continually |
 | docker-compose top | Show the running processes |
