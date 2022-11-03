@@ -1,5 +1,6 @@
 # Docker - Essential Commands
-- Below are the list of essential commands we need
+- Below is the list of essential commands we need
+
 
 
 |     Commands                 |    Description                                  |
@@ -47,5 +48,6 @@
 | docker update --restart unless-stopped $(docker ps -q) | And this command will ensure all currently running containers will be restarted unless stopped |
 | docker network ls | List all docker network|
 | docker port [ID/NAME] | List container port mapping or run "docker ps" |
+| docker-compose up -d | Tells Docker to process the contents of the composite file and configure the specified volumes, networks, and containers |
 
 
