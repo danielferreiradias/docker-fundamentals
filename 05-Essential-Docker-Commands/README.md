@@ -53,5 +53,5 @@
 | docker-compose exec [ID/NAME] env | To see what environment variables are available to the web service |
 | docker-compose down --volumes | You can bring everything down, removing the containers entirely, with the down command. Pass --volumes to also remove the data volume, if used |
 | docker-compose down --volumes --rmi all | You can bring everything down, removing the containers entirely, volumes and images |
-| docker-compose logs -f | Show container logs continually |
+| docker-compose logs -f [ID/NAME] | Show container logs continually |
 | docker-compose top | Show the running processes |
