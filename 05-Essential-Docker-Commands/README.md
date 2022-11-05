@@ -19,8 +19,8 @@
 | docker container prune | Remove all stopped containers |
 | docker image prune -a | Remove all images without at least one container associated to them |
 | docker port [ID/NAME] | List port mappings of a specific container |
-| docker rm [ID/NAME] or name | Remove the stopped container |
-| docker rm -f [ID/NAME] or name| Remove the running container forcefully |
+| docker rm [ID/NAME] | Remove the stopped container |
+| docker rm -f [ID/NAME] | Remove the running container forcefully |
 | docker rmi [IMAGE_ID] | Remove the docker image |
 | docker images | Show docker images |
 | docker search --filter "is-official=true" [IMAGE] | Search a specific official image in docker Hub repository |
