@@ -21,6 +21,7 @@
 | docker port [ID/NAME] | List port mappings of a specific container |
 | docker rm [ID/NAME] | Remove the stopped container |
 | docker rm -f [ID/NAME] | Remove the running container forcefully |
+| docker stop $(docker ps -a -q) `&&` docker rm $(docker ps -a -q) | Stop and Remove all containers |
 | docker rmi [IMAGE_ID] | Remove the docker image |
 | docker images | Show docker images |
 | docker search --filter "is-official=true" [IMAGE] | Search a specific official image in docker Hub repository |
