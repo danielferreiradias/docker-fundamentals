@@ -46,7 +46,7 @@
 | docker stats | Display a live stream of container(s) resource usage statistics |
 | docker top [ID/NAME] | Display the running processes of a container |
 | docker version | Show the Docker version information |
-| docker update --restart unless-stopped $(docker ps -q) | And this command will ensure all currently running containers will be restarted unless stopped |
+| docker update --restart unless-stopped $(docker ps -q) | And this [command](https://docs.docker.com/config/containers/start-containers-automatically/) will ensure all currently running containers will be restarted unless stopped |
 | docker network ls | List all docker network |
 | docker port [ID/NAME] | List container port mapping or run "docker ps" |
 | docker-compose up -d | Tells Docker to process the contents of the composite file and configure the specified volumes, networks, and containers |
