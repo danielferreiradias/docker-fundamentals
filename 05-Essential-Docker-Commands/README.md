@@ -17,10 +17,12 @@
 | docker logs -f [ID/NAME] | Show container logs continually |
 | docker inspect [ID/NAME or IMAGE] | Inspect a container or image on JSON format |
 | docker container prune | Remove all stopped containers |
+| docker container ls -a | List all of your containers |
 | docker image prune -a | Remove all images without at least one container associated to them |
 | docker port [ID/NAME] | List port mappings of a specific container |
-| docker rm [ID/NAME] | Remove the stopped container |
-| docker rm -f [ID/NAME] | Remove the running container forcefully |
+| docker container run --name MYCONTAINER --rm hello-world | Run "hello-world" container and remove it after execution |
+| docker container rm [ID/NAME] | Remove the stopped container |
+| docker container rm -f [ID/NAME] | Remove the running container forcefully |
 | docker stop $(docker ps -a -q) `&&` docker rm $(docker ps -a -q) | Stop and Remove all containers |
 | docker rmi [IMAGE_ID] | Remove the docker image |
 | docker images | Show docker images |
