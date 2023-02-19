@@ -11,7 +11,7 @@
 | docker container stop [ID/NAME] | Stop the container which is running |
 | docker container start [ID/NAME] | Sart the container which is stop |
 | docker container pause [ID/NAME] | Pause the container which is running |
-| docker unpause [ID/NAME] | Unpause the container which is not running, but active |
+| docker container unpause [ID/NAME] | Unpause the container which is not running, but active |
 | docker container start [ID/NAME] | Start the container which is stopped |
 | docker container restart [ID/NAME] | Restart the container which is running |
 | docker logs -f [ID/NAME] | Show container logs continually |
