@@ -8,12 +8,12 @@
 | docker info | Info about docker architecture |
 | docker ps | List all running containers |
 | docker ps -a | List all containers stopped, running |
-| docker stop [ID/NAME] | Stop the container which is running |
-| docker start [ID/NAME] | Sart the container which is stop |
-| docker pause [ID/NAME] | Pause the container which is running |
+| docker container stop [ID/NAME] | Stop the container which is running |
+| docker container start [ID/NAME] | Sart the container which is stop |
+| docker container pause [ID/NAME] | Pause the container which is running |
 | docker unpause [ID/NAME] | Unpause the container which is not running, but active |
-| docker start [ID/NAME] | Start the container which is stopped |
-| docker restart [ID/NAME] | Restart the container which is running |
+| docker container start [ID/NAME] | Start the container which is stopped |
+| docker container restart [ID/NAME] | Restart the container which is running |
 | docker logs -f [ID/NAME] | Show container logs continually |
 | docker container inspect [ID/NAME or IMAGE] | Inspect a container or image on JSON format |
 | docker container prune | Remove all stopped containers |
@@ -23,7 +23,7 @@
 | docker container run --name MYCONTAINER --rm hello-world | Run "hello-world" container and remove it after execution |
 | docker container rm [ID/NAME] | Remove the stopped container |
 | docker container rm -f [ID/NAME] | Remove the running container forcefully |
-| docker stop $(docker ps -a -q) `&&` docker rm $(docker ps -a -q) | Stop and Remove all containers |
+| docker container stop $(docker ps -a -q) `&&` docker rm $(docker ps -a -q) | Stop and Remove all containers |
 | docker rmi [IMAGE_ID] | Remove the docker image |
 | docker images | Show docker images |
 | docker search --filter "is-official=true" [IMAGE] | Search a specific official image in docker Hub repository |
