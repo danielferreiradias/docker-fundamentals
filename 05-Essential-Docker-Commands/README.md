@@ -29,6 +29,7 @@
 | docker container stop $(docker ps -a -q) `&&` docker rm $(docker ps -a -q) | Stop and Remove all containers |
 | docker rmi [IMAGE_ID] | Remove the docker image |
 | docker images | Show docker images |
+| docker image history [ID/NAME] | Show image build history |
 | docker search --filter "is-official=true" [IMAGE] | Search a specific official image in docker Hub repository |
 | docker build -t myrepo/myimage Dockerfile | Build a image |
 | docker tag nielbit/mynginx_image1:v1  nielbit/mynginx_image1:v1-release | Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE |
