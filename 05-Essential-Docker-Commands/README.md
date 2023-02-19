@@ -15,6 +15,7 @@
 | docker container start [ID/NAME] | Start the container which is stopped |
 | docker container restart [ID/NAME] | Restart the container which is running |
 | docker logs -f [ID/NAME] | Show container logs continually |
+| docker container logs -n 5 [ID/NAME] | Show last five lines of container logs |
 | docker container inspect [ID/NAME or IMAGE] | Inspect a container or image on JSON format |
 | docker container prune | Remove all stopped containers |
 | docker container ls -a | List all of your containers |
