@@ -15,7 +15,7 @@
 | docker start [ID/NAME] | Start the container which is stopped |
 | docker restart [ID/NAME] | Restart the container which is running |
 | docker logs -f [ID/NAME] | Show container logs continually |
-| docker inspect [ID/NAME or IMAGE] | Inspect a container or image on JSON format |
+| docker container inspect [ID/NAME or IMAGE] | Inspect a container or image on JSON format |
 | docker container prune | Remove all stopped containers |
 | docker container ls -a | List all of your containers |
 | docker image prune -a | Remove all images without at least one container associated to them |
