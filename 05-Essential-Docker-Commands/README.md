@@ -36,7 +36,7 @@
 | docker push [IMAGE_INFO] | Push the image from docker hub repository |
 | docker pull [IMAGE_INFO] | Pull the image from docker hub repository |
 | docker pull stacksimplify/springboot-helloworld-rest-api:2.0.0-RELEASE | Pull the image from docker hub repository |
-| docker run -d -e DBHOST="empdb" -e DBPORT="3306" -e DBUSER="root" -e DBPWD="abcd1234" -e DATABASE="awsecs" --name addemp --net awsecs -p 80:80 addemp:latest | Run a container with many parameters |
+| docker run -d -e DBHOST="empdb" -e DBPORT="3306" -e DBUSER="root" -e DBPWD="abcd1234" -e DATABASE="awsecs" --name addemp --net awsecs -p 80:80 addemp:latest | Run a container with many parameters, the flag "--net [NETWORK_NAME]" could be "--network [NETWORK_NAME]" |
 | docker container run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=mongouser -e MONGO_INITDB_ROOT_PASSWORD=mongopwd mongo | Run a container with many parameters |
 | docker run --rm -it ubuntu:18.04 | Initialize a container with a interactive mode and finalize when exit it |
 | docker container run --name ubuntu -itd ubuntu:18.04 | Initialize a container with a name 'ubuntu' with a interactive mode, enabling TTY and in a background mode |
